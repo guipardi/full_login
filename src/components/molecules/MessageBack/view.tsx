@@ -7,7 +7,7 @@ import { Button } from '@/components/atoms/Button'
 export const MessageBack: FC<MessageBackProps> = ({ ...props }) => {
   return (
     <div className="flex flex-col items-center gap-4">
-      <Heading variant={'primary'} as={'h2'}>
+      <Heading variant={'primary'} as={'h2'} className="text-center">
         Welcome Back!
       </Heading>
       <Text variant={'default'} className="text-white text-center">

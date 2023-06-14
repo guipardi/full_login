@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <Container
       variant={'md'}
-      className="grid grid-cols-3 h-screen items-center rounded-2xl"
+      className="grid grid-rows-3 p-16 md:grid-rows-none md:grid-cols-3 h-screen items-center"
     >
-      <div className="bg-green-300 col-span-1 h-4/6 flex flex-col justify-center rounded-l-lg">
+      <div className="bg-green-300 row-span-1 h-full md:row-auto md:col-span-1 md:h-4/6 flex flex-col justify-center rounded-t-lg md:rounded-l-lg">
         <Container variant={'md'} className="w-full">
           <MessageBack />
         </Container>
       </div>
-      <div className="bg-white col-span-2 h-4/6 flex flex-col justify-center gap-5 rounded-r-lg">
+      <div className="bg-white row-span-2 h-full md:row-auto md:col-span-2 md:h-4/6 flex flex-col justify-center gap-5 rounded-b-lg md:rounded-r-lg">
         <Container variant={'md'} className="w-full">
           <CreateAccount />
         </Container>
