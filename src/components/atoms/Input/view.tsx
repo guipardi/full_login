@@ -13,8 +13,8 @@ export const Input: FC<InputProps> = ({
   ...props
 }) => {
   return (
-    <div className="flex flex-row items-center gap-1 bg-gray-300 p-2">
-      {icon === 'name' && <User size={20} className="text-gray-800" />}
+    <div className="flex flex-row items-center gap-1 bg-gray-300 p-2 w-1/2">
+      {icon === 'name' && <User size={30} className="text-gray-800" />}
       {icon === 'email' && <Envelope size={30} className="text-gray-800" />}
       {icon === 'password' && (
         <LockSimple size={30} className="text-gray-800" />

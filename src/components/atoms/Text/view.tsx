@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import { TextProps } from './models'
 import { getTextVariant } from './styles'
+import { list } from 'postcss'
 
 export const Text: FC<TextProps> = ({
   as: As = 'p',

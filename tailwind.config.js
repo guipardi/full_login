@@ -17,6 +17,10 @@ module.exports = {
         'gray-300': '#DCDCDC',
         'gray-800': '#C0C0C0',
       },
+      maxWidth: {
+        '1/2': '50%',
+        360: '90rem',
+      },
     },
   },
   plugins: [],
