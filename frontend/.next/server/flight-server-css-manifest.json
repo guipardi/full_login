@@ -1,0 +1,12 @@
+{
+  "cssImports": {
+    "/Users/guilhermepardi/Documents/GitHub/rocket/full_login/frontend/src/app/layout.tsx": [
+      "/Users/guilhermepardi/Documents/GitHub/rocket/full_login/frontend/src/styles/global.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/guilhermepardi/Documents/GitHub/rocket/full_login/frontend/src/app/page": [
+      "/Users/guilhermepardi/Documents/GitHub/rocket/full_login/frontend/src/styles/global.css"
+    ]
+  }
+}
