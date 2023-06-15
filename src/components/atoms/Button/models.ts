@@ -7,4 +7,5 @@ export interface ButtonProps
     HTMLAttributes<HTMLButtonElement> {
   as?: ElementType
   children: ReactNode
+  onClickFunction: () => void
 }

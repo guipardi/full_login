@@ -1,3 +1,4 @@
+import { ActiveLoginFormProvider } from '@/context/ActiveLoginFormContext'
 import '../styles/global.css'
 
 export const metadata = {
@@ -12,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className="bg-gray-300">{children}</body>
+      <ActiveLoginFormProvider>
+        <body className="bg-gray-300">{children}</body>
+      </ActiveLoginFormProvider>
     </html>
   )
 }
