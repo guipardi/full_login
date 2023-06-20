@@ -7,16 +7,18 @@ export const routes = [
     method: 'GET',
     path: '/users',
     handler: (req, res) => {
-      const { email, password } = req.body
-
-      const user = database.select('users', {
-        email,
-        password,
-      })
-
-      if (user) {
-        return res.end(JSON.stringify(user))
-      }
+      const users = database.getAll('users')
+      res.end(JSON.stringify(users))
+    },
+  },
+  {
+    method: 'OPTIONS',
+    path: '/users',
+    handler: (req, res) => {
+      res.setHeader('Access-Control-Allow-Origin', '*')
+      res.setHeader('Access-Control-Allow-Methods', 'GET, POST')
+      res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
+      res.writeHead(200).end()
     },
   },
   {

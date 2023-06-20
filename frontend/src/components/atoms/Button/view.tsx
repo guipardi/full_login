@@ -7,6 +7,7 @@ export const Button: FC<ButtonProps> = ({
   variant,
   children,
   className,
+  type,
   onClickFunction,
   ...props
 }) => {

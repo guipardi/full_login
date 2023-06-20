@@ -196,26 +196,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/atoms/Input/view.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/atoms/Input/view.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/atoms/Input/view.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "Input": {
-        "id": "(sc_client)/./src/components/atoms/Input/view.tsx",
-        "name": "Input",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./src/components/molecules/MessageBack/view.tsx": {
       "*": {
         "id": "(sc_client)/./src/components/molecules/MessageBack/view.tsx",
@@ -956,30 +936,6 @@
     "/Users/guilhermepardi/Documents/GitHub/rocket/full_login/frontend/src/app/page.tsx#default": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/guilhermepardi/Documents/GitHub/rocket/full_login/frontend/src/components/atoms/Input/view.tsx": {
-      "id": "(app-client)/./src/components/atoms/Input/view.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/guilhermepardi/Documents/GitHub/rocket/full_login/frontend/src/components/atoms/Input/view.tsx#": {
-      "id": "(app-client)/./src/components/atoms/Input/view.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/guilhermepardi/Documents/GitHub/rocket/full_login/frontend/src/components/atoms/Input/view.tsx#Input": {
-      "id": "(app-client)/./src/components/atoms/Input/view.tsx",
-      "name": "Input",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
